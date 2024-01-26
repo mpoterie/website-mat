@@ -18,8 +18,6 @@ function Header() {
   const location = useLocation();
   const { pathname } = location;
 
-  console.log(pathname);
-
   return (
     <div className="header">
       <div className="site-title header-left">
@@ -32,7 +30,6 @@ function Header() {
           <ul className="navbar-nav mr-auto">
             {links.map(({ to, title }, key) => {
               const className = pathname === to ? "nav-link-active" : "";
-              console.log({ to, className });
               return (
                 <li key={key} className={className}>
                   <Link to={to}>{title}</Link>
@@ -42,9 +39,10 @@ function Header() {
             <li>
               <Link
                 to="https://www.instagram.com/mathieupoterie/"
+                target="_blank"
                 className="nav-link"
               >
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </Link>
             </li>
           </ul>

@@ -27,7 +27,13 @@ function Picture() {
             <div className="pd-4"></div>
           </div>
 
-          <TECarousel showControls showIndicators crossfade ride="carousel">
+          <TECarousel
+            showControls
+            showIndicators
+            crossfade
+            ride="carousel"
+            className="z-index-reset"
+          >
             <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
               <TECarouselItem
                 itemID={1}
@@ -180,7 +186,7 @@ function Picture() {
           video.
         </div>
         <TECarousel
-          className="pd-2"
+          className="pd-2 z-index-reset"
           showControls
           showIndicators
           crossfade
@@ -237,12 +243,12 @@ function Picture() {
         <div className="pd-6 navigation-flex">
           <div>
             <Link to={"/dance"} className="work-title">
-              <i class="fa-solid fa-chevron-left"></i> Dance
+              <i className="fa-solid fa-chevron-left"></i> Dance
             </Link>
           </div>
           <div>
             <Link to={"/music"} className="work-title">
-              Music <i class="fa-solid fa-chevron-right"></i>
+              Music <i className="fa-solid fa-chevron-right"></i>
             </Link>
           </div>
         </div>

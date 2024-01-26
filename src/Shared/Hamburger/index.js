@@ -14,12 +14,22 @@ export default function Hamburger({ isOpen, links }) {
           {links.map(({ to, title }, key) => {
             return (
               <div key={key} className="hamburger-title-container">
-                <Link to={to} className="title-1">
+                <Link to={to} className="title-2">
                   {title}
                 </Link>
               </div>
             );
           })}
+
+          <div className="hamburger-title-container">
+            <Link
+              to="https://www.instagram.com/mathieupoterie/"
+              target="_blank"
+              className="title-2"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </Link>
+          </div>
         </div>
       </div>
       <div

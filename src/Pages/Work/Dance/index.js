@@ -66,7 +66,7 @@ function Dance() {
               <iframe
                 src="https://www.youtube.com/embed/FGVSURa7f4A?si=7p1GJ67j4PhUCPYa"
                 title="YouTube video player"
-                frameborder="0"
+                frameorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -98,12 +98,12 @@ function Dance() {
         <div className="pd-6 navigation-flex">
           <div>
             <Link to={"/music"} className="work-title">
-              <i class="fa-solid fa-chevron-left"></i> Music
+              <i className="fa-solid fa-chevron-left"></i> Music
             </Link>
           </div>
           <div>
             <Link to={"/picture"} className="work-title">
-              Picture <i class="fa-solid fa-chevron-right"></i>
+              Picture <i className="fa-solid fa-chevron-right"></i>
             </Link>
           </div>
         </div>

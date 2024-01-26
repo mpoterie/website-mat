@@ -152,12 +152,12 @@ function Music() {
         <div className="pd-6 navigation-flex">
           <div>
             <Link to={"/picture"} className="work-title">
-              <i class="fa-solid fa-chevron-left"></i> Picture
+              <i className="fa-solid fa-chevron-left"></i> Picture
             </Link>
           </div>
           <div>
             <Link to={"/dance"} className="work-title">
-              Dance <i class="fa-solid fa-chevron-right"></i>
+              Dance <i className="fa-solid fa-chevron-right"></i>
             </Link>
           </div>
         </div>
