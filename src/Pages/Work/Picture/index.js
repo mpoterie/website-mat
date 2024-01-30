@@ -31,7 +31,6 @@ function Picture() {
             showControls
             showIndicators
             crossfade
-            ride="carousel"
             className="z-index-reset"
           >
             <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
@@ -62,6 +61,31 @@ function Picture() {
               </TECarouselItem>
               <TECarouselItem
                 itemID={2}
+                className="relative float-left -mr-[100%] hidden w-full !transform-none transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+              >
+                <div>
+                  <div
+                    style={{ padding: "56.25% 0 0 0", position: "relative" }}
+                  >
+                    <iframe
+                      src="https://www.youtube.com/embed/Ek_0KFUsu6s?si=QcSvdrSzA49MaNR5"
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                      }}
+                      frameborder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+              </TECarouselItem>
+              <TECarouselItem
+                itemID={3}
                 className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
               >
                 <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
@@ -81,7 +105,7 @@ function Picture() {
                 </div>
               </TECarouselItem>
               <TECarouselItem
-                itemID={3}
+                itemID={4}
                 className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
               >
                 <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
@@ -101,7 +125,7 @@ function Picture() {
                 </div>
               </TECarouselItem>
               <TECarouselItem
-                itemID={4}
+                itemID={5}
                 className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
               >
                 <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
@@ -121,7 +145,7 @@ function Picture() {
                 </div>
               </TECarouselItem>
               <TECarouselItem
-                itemID={5}
+                itemID={6}
                 className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
               >
                 <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
