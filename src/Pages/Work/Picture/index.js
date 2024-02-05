@@ -27,12 +27,7 @@ function Picture() {
             <div className="pd-4"></div>
           </div>
 
-          <TECarousel
-            showControls
-            showIndicators
-            crossfade
-            className="z-index-reset"
-          >
+          <TECarousel showIndicators crossfade className="z-index-reset">
             <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
               <TECarouselItem
                 itemID={1}

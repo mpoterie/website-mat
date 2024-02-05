@@ -1,9 +1,9 @@
-function SoundCloudIFrame({ src }) {
+function SoundCloudIFrame({ src, height }) {
   return (
     <>
       <iframe
         width="100%"
-        height="130"
+        height={height ?? 130}
         scrolling="no"
         frameBorder="no"
         allow="autoplay"

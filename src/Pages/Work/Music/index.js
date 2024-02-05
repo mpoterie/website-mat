@@ -72,7 +72,10 @@ function Music() {
           <div className="pd-4"></div>
           <div className="title-3">Rag And Bones</div>
           <div className="pd-2"></div>
-          <SoundCloudIFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/241562553&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
+          <SoundCloudIFrame
+            height="400"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/184691474&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          />
           <div className="pd-2 paragraph">
             <i>Where Can Your Glory Fade ?</i> is Mathieu's first solo album.
             Composed in collaboration with other musicians and friends. Recorded
@@ -95,7 +98,10 @@ function Music() {
           <div className="pd-4"></div>
           <div className="title-3">Improvisations</div>
           <div className="pd-2"></div>
-          <SoundCloudIFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/300558546&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
+          <SoundCloudIFrame
+            height="400"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1125596614&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          />
           <div className="pd-2 paragraph">
             In 2017 Mathieu recorded some improvisations during a home session,
             each time with a different set up of my gear (synths, piano,
@@ -107,7 +113,10 @@ function Music() {
           <div className="pd-4"></div>
           <div className="title-3">Figures In Motion</div>
           <div className="pd-2"></div>
-          <SoundCloudIFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/27080320&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
+          <SoundCloudIFrame
+            height="400"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/27080320&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          />
           <div className="pd-2 paragraph">
             <i>Confusion Will Pass</i> is the second and last album of Figures
             in Motion, Mathieu's former band. It was entirely written, recorded,
@@ -116,7 +125,10 @@ function Music() {
             <div className="pd-1"></div>
             <b>Album release date:</b> 18 March 2014
             <div className="pd-2"></div>
-            <SoundCloudIFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/752500&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
+            <SoundCloudIFrame
+              height="400"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/752500&color=%23363430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            />
             <div className="pd-2 paragraph">
               <i>Cycle</i> is the first release of Mathieu's former band,
               Figures In Motion. It was entirely written, recorded, mixed and
